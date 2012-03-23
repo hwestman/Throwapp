@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.throwapp"
+      android:versionCode="3"
+      android:versionName="0.1.2">
+          
+          <uses-sdk android:minSdkVersion="6"
+              android:targetSdkVersion="8" />
+              
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name="Throwapp"
+             android:configChanges="keyboardHidden|orientation"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      <activity android:name=".Throwdevice" android:label="throwdevice"
+                android:configChanges="keyboardHidden|orientation" >
+      </activity>
+      <activity android:name=".Localhighscore" android:label="localhighscore">
+      </activity>
+      <activity android:name=".Globalhighscore" android:label="globalhighscore">
+      </activity>
+      <activity android:name=".Recordthrow" android:label="recordthrow"
+                android:configChanges="keyboardHidden|orientation"/>
+      <activity android:name=".fbHandler" android:label="fbhandler"
+                android:configChanges="keyboardHidden|orientation"/>
+        
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest> 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Global -->
+ <string name="interwebz">Connect to 3G or WiFi before you try to use INTERNETZ!!</string>
+    <string name="app_name">ThrowApp</string>
+    <string name="tutorial_head">This is how you do it! </string>
+    
+    
+    <string name="tutorial_tips">The point of the entire app is to put your 
+    android device at highest possible risk without destruction.
+    You are supposed to throw your device as far as possible, while under NO rotation what so ever.\n
+    
+    (If you want it to spin...send us money for a Gyro) Dropping it straight 
+    downward will give you a low score (its a bitch-move and you know it)</string>
+    
+     <!-- throwDevice xml -->
+    <string name="throwButton">Throw</string>
+    <string name="saveButton">Save</string>
+    <string name="shareToFacebook">Post to Facebook</string>
+    <string name="submitHighscore">Submit Highscore</string>
+    <string name="localHighscoreButton">Local Higscore</string>
+    <string name="globalHighscoreButton">Global Highscore</string>
+    <string name="logoutfb">Log out FB</string>
+
+	<!-- LocalHighscore class -->
+    <string name="highscore">Submit highscore</string>
+    <string name="facebook">Post on facebook</string>
+    <string name="delete">delete</string>
+    <string name="deleted">Score has been deleted</string>
+    <string name="score_submitted">Your score should have been submitted to the global highscore</string>
+    
+<!-- throwDevice class -->
+    
+    <string name="throwAgain">Throw Again</string>
+    
+    <string name="preDisplayResult">I just threw my Android scoring: </string>
+    <string name="postDisplayResult">I bet you cant beat me, maddafakkaaaah!</string>
+    
+    <string name="fbOkPostToast">Throw has been posted on Facebook</string>
+    <string name="fbErrorConnectToast">Connect to 3G or WiFi before you try submitting result to facebook!</string>
+    
+    <string name="deviceSpin">You spinned it, dropped it, or you just throw like a girl</string>
+    
+    <string name="canceledThrow">Throw was canceled</string>
+    <string name="saveResultAlert">Save Result?</string>
+    <string name="okButton">Ok</string>
+    
+    <string name="localSaveToast">Result has been saved, check it out in local highscore!</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="localSaveCanceledToast">Saving has been aborted, result NOT saved!</string>
+    <string name="globalSaveOk">Score should have been submited, check it out in global highscore</string>                               
+                                   
+    
+</resources>

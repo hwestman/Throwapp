@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/63/trunk/ThrowApp/res/layout
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/53/trunk/ThrowApp/res/layout/main.xml
+END
+throwdevice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/63/trunk/ThrowApp/res/layout/throwdevice.xml
+END
+globalhighscore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/trunk/ThrowApp/res/layout/globalhighscore.xml
+END
+displaythrow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/trunk/ThrowApp/res/layout/displaythrow.xml
+END
+throwrow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/44/trunk/ThrowApp/res/layout/throwrow.xml
+END
+localhighscore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/44/trunk/ThrowApp/res/layout/localhighscore.xml
+END
+recordthrow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/trunk/ThrowApp/res/layout/recordthrow.xml
+END

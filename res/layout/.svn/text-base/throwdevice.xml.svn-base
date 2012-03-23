@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2f577b"
+    >
+    <ScrollView 
+             android:layout_width="fill_parent" 
+             android:layout_height="fill_parent">
+    
+        <LinearLayout android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+     
+              
+        <ImageView
+        android:id="@+id/completedThrowImage"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/weightless"
+        android:visibility="gone"
+        />
+        
+        <TextView
+              android:paddingTop="20dp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18dp"
+              android:paddingLeft="10dp"
+              android:textStyle="bold"
+              android:text="@string/tutorial_head"
+              android:id="@+id/tutorial_head"/>
+        <ImageView
+              android:paddingTop="20dp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:src="@drawable/throwimage"
+              android:id="@+id/tutorial_cycle"/>
+        <TextView
+              android:paddingTop="20dp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:text="@string/tutorial_tips"
+              android:id="@+id/tutorial_tips"/>
+
+        <Button
+            android:id="@+id/throwButton"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="@string/throwButton"
+            />
+       
+         
+         
+         
+         <LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+  
+
+         
+         
+         <Button
+            android:id="@+id/saveButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" 
+            android:textSize="10dp"
+            android:text="@string/saveButton"
+            android:visibility="gone"
+            android:singleLine="true"
+            />
+            
+            <Button
+            android:id="@+id/shareToFacebook"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" 
+            android:textSize="10dp"
+            android:text="@string/shareToFacebook"
+            android:visibility="gone"
+            android:singleLine="true"
+            />
+            
+            <Button
+            android:id="@+id/submitHighscore"
+            android:layout_width="115dp"
+             android:layout_height="wrap_content" 
+            android:textSize="10dp"
+            android:text="@string/submitHighscore"
+            android:visibility="gone"
+            android:singleLine="true"
+            />
+            
+         </LinearLayout>
+         
+         <Button
+            android:id="@+id/logoutFb"
+             android:layout_height="wrap_content" 
+            android:textSize="8dp"
+            android:layout_width="50dp"
+            android:text="@string/logoutfb"
+            android:visibility="gone"
+            android:singleLine="true"
+            />
+       
+       
+     </LinearLayout>
+     </ScrollView>
+
+
+</LinearLayout>

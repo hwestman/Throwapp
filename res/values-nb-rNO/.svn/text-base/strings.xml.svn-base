@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThrowApp</string>
+       <string name="tutorial_head">Slik gjør du det: </string>
+    
+    <string name="tutorial_cycle">Vent på at enheten din er kalibrert -> Kast den -> Be til gud -> Lagre/Poste/Kungjør -> Rince and Repeat!</string>
+    <string name="tutorial_tips">Enheten vil ikke måle kaste ditt om den roterer mens/midt i kastet. Om du vil ha støtte for dette, kjøp oss en enhet 
+    med gyro!. Om du slipper enheten fra en høyde, vil du få dårlig uttelling. Et kast vil alltid være den beste løsningen ;)</string>
+    
+    
+     
+    <!-- throwDevice xml -->
+    <string name="throwButton">Kast</string>
+    <string name="saveButton">Lagre</string>
+    <string name="shareToFacebook">Post til Facebook</string>
+    <string name="submitHighscore">Kungjør på Higscore</string>
+    <string name="localHighscoreButton">Lokal Higscore</string>
+    <string name="globalHighscoreButton">Global Highscore</string>
+    
+    <!-- throwDevice class -->
+    
+    <string name="throwAgain">Kast igjen</string>
+    <string name="delete">Slettet</string>
+    <string name="deleted">Scoren har blitt slettet</string>
+    
+    <string name="preDisplayResult">Eg peisa nettopp androidn min på fjorn og fækk: </string>
+    <string name="postDisplayResult">ikkefan om nån tar meg!</string>
+    
+    <string name="fbOkPostToast">Kastet ditt ble postet til Facebook</string>
+    <string name="fbErrorConnectToast">Koble til internett før du prøver å laste opp</string>
+    
+    <string name="deviceSpin">Telefonen roterte under kastet eller så kaster du som en liten jente</string>
+    
+    <string name="canceledThrow">Kast ble kansellert</string>
+    <string name="saveResultAlert">Lagre Resultatet?</string>
+    <string name="okButton">Ok</string>
+    
+    <string name="localSaveToast">Resultatet ble lagret, se det under lokal higscore</string>
+    <string name="cancelButton">Kanseller</string>
+    <string name="localSaveCanceledToast">Lagring ble avbrutt, ingen ting ble lagret til databasen</string>
+    <string name="globalSaveOk">Resultatet ble lagret i den offisielle higscore-listen, se ditt resultat under global highscore</string>                           
+                                   
+    
+</resources>
