@@ -90,13 +90,13 @@ public class Throwdevice extends Activity implements OnClickListener{
         shareToFacebook = (Button) findViewById(R.id.shareToFacebook);
         completedThrowImage = (ImageView) findViewById(R.id.completedThrowImage);
         submitHighscoreButton = (Button) findViewById(R.id.submitHighscore);
-        logoutFb = (Button) findViewById(R.id.logoutFb);
+        //todo: logoutFb = (Button) findViewById(R.id.logoutFb);
         
         
         //attaching listeners
         throwButton.setOnClickListener(this);
         saveButton.setOnClickListener(this);
-        logoutFb.setOnClickListener(this);
+        //TODO logoutFb.setOnClickListener(this);
         
         
        
@@ -144,7 +144,7 @@ public class Throwdevice extends Activity implements OnClickListener{
         String access_token = mPrefs.getString("access_token", null);
         Log.d("throwdevice","acces_token when setting visibility is ."+access_token);
          if(access_token != ""){
-             logoutFb.setVisibility(0);
+            //TODO: logoutFb.setVisibility(0);
          }
         
          Log.d("ThrowDevice","running onactivityresult");
