@@ -36,10 +36,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-//import com.facebook.android.DialogError;
-//import com.facebook.android.Facebook;
-//import com.facebook.android.Facebook.DialogListener;
-//import com.facebook.android.FacebookError;
+import com.facebook.android.DialogError;
+import com.facebook.android.Facebook;
+import com.facebook.android.Facebook.DialogListener;
+import com.facebook.android.FacebookError;
 
 public class Throwdevice extends Activity implements OnClickListener{
     //Buttons that is beeing enabled and disabled
@@ -204,7 +204,7 @@ public class Throwdevice extends Activity implements OnClickListener{
                         boolean gotInterwebz = Functions.haveInternet(CTX);
                         if(gotInterwebz) {
                         
-                //        fbhandler = new Intent(Throwdevice.this,Fbhandler.class);
+                       fbhandler = new Intent(Throwdevice.this,Fbhandler.class);
                         
                         Log.d("throwdevice","just clicked");
                         

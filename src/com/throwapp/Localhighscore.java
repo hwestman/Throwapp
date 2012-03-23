@@ -22,10 +22,10 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
-//import com.facebook.android.DialogError;
-//import com.facebook.android.Facebook;
-//import com.facebook.android.Facebook.DialogListener;
-//import com.facebook.android.FacebookError;
+import com.facebook.android.DialogError;
+import com.facebook.android.Facebook;
+import com.facebook.android.Facebook.DialogListener;
+import com.facebook.android.FacebookError;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,15 +48,14 @@ public class Localhighscore extends ListActivity
    private boolean refresh = false;
    SimpleCursorAdapter allThrows;
    Cursor curSor;
-   //Facebook facebook = new Facebook("200385206700551");
+   Facebook facebook = new Facebook("200385206700551");
    private SharedPreferences mPrefs;
     private Context CTX;
     Intent fbhandler;
    
    private Button deleteButton;
-   //private Button shareToFacebook;
-   //private Button shareToFacebook;
-   //public Cursor c; 
+   private Button shareToFacebook;
+   public Cursor c; 
     //Going through DB and printing all saved Throws
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -143,7 +142,7 @@ protected void onListItemClick(ListView l, View v, int position, final long id) 
                         if(gotInterwebz) {
                                 
                             
-      //                  fbhandler = new Intent(Localhighscore.this,Fbhandler.class);
+                        fbhandler = new Intent(Localhighscore.this,Fbhandler.class);
                         
                         Log.d("throwdevice","just clicked");
                         
