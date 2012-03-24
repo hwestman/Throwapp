@@ -18,7 +18,6 @@ import org.xml.sax.SAXException;
 import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 
