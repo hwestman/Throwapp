@@ -1,5 +1,5 @@
 ThrowApp
-=======
+===============
 
 ThrowApp is basically a pissing contest. Who can throw their phone furthest. The app uses the devices accelerometer to measure how far you throw your device.
 To calculate how far you actually threw your device, we first measure how much power you use right before the phone goes weightless, and then we measure for how long your device actually is weightless. Based on these two parameters, we calculate a total score (with a pretty awesome algorithm) which gives you a pretty good indicator of how far you threw your device.
