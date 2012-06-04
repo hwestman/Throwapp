@@ -13,8 +13,8 @@
     <string name="throwButton">Kast</string>
     <string name="saveButton">Lagre</string>
     <string name="shareToFacebook">Post til Facebook</string>
-    <string name="submitHighscore">Kungjør på Highscore</string>
-    <string name="localHighscoreButton">Lokal Highscore</string>
+    <string name="submitHighscore">Kungjør på Higscore</string>
+    <string name="localHighscoreButton">Lokal Higscore</string>
     <string name="globalHighscoreButton">Global Highscore</string>
     
     <!-- throwDevice class -->
@@ -35,10 +35,10 @@
     <string name="saveResultAlert">Lagre Resultatet?</string>
     <string name="okButton">Ok</string>
     
-    <string name="localSaveToast">Resultatet ble lagret, se det under lokal highscore</string>
+    <string name="localSaveToast">Resultatet ble lagret, se det under lokal higscore</string>
     <string name="cancelButton">Kanseller</string>
     <string name="localSaveCanceledToast">Lagring ble avbrutt, ingen ting ble lagret til databasen</string>
-    <string name="globalSaveOk">Resultatet ble lagret i den offisielle highscore-listen, se ditt resultat under global highscore</string>                           
+    <string name="globalSaveOk">Resultatet ble lagret i den offisielle higscore-listen, se ditt resultat under global highscore</string>                           
                                    
     
 </resources>

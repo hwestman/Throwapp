@@ -25,7 +25,7 @@
       </activity>
       <activity android:name=".Recordthrow" android:label="recordthrow"
                 android:configChanges="keyboardHidden|orientation"/>
-      <activity android:name=".fbHandler" android:label="fbhandler"
+      <activity android:name=".Fbhandler" android:label="fbhandler"
                 android:configChanges="keyboardHidden|orientation"/>
         
     </application>

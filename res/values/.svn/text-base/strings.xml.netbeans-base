@@ -19,7 +19,7 @@
     <string name="saveButton">Save</string>
     <string name="shareToFacebook">Post to Facebook</string>
     <string name="submitHighscore">Submit Highscore</string>
-    <string name="localHighscoreButton">Local Highscore</string>
+    <string name="localHighscoreButton">Local Higscore</string>
     <string name="globalHighscoreButton">Global Highscore</string>
     <string name="logoutfb">Log out FB</string>
 

@@ -58,7 +58,7 @@ public class Throwdevice extends Activity implements OnClickListener{
      
    
      String FILENAME = "ThrowApp_data";
-     Intent fbhandler;
+     Intent fbHandler;
      
      private Context CTX;
      
@@ -204,7 +204,7 @@ public class Throwdevice extends Activity implements OnClickListener{
                         boolean gotInterwebz = Functions.haveInternet(CTX);
                         if(gotInterwebz) {
                         
-                       fbhandler = new Intent(Throwdevice.this,Fbhandler.class);
+                       fbHandler = new Intent(Throwdevice.this,Fbhandler.class);
                         
                         Log.d("throwdevice","just clicked");
                         
@@ -215,9 +215,9 @@ public class Throwdevice extends Activity implements OnClickListener{
                         b.putInt("total", total);
                         b.putString("type", "shareToFb");
                         
-                        fbhandler.putExtras(b);
+                        fbHandler.putExtras(b);
                         
-                    startActivityForResult(fbhandler,1);
+                    startActivityForResult(fbHandler,1);
                     
                         }
                         else {
@@ -234,7 +234,7 @@ public class Throwdevice extends Activity implements OnClickListener{
                         
                         boolean gotInterwebz = Functions.haveInternet(CTX);
                         if(gotInterwebz) {
-                        fbhandler = new Intent(Throwdevice.this,Fbhandler.class);
+                        fbHandler = new Intent(Throwdevice.this,Fbhandler.class);
                         Log.d("throwdevice","just clicked submithighscore");
                         
                         Bundle b = new Bundle();
@@ -244,8 +244,8 @@ public class Throwdevice extends Activity implements OnClickListener{
                         b.putInt("total", total);
                         b.putString("type", "submitHs");
 
-                        fbhandler.putExtras(b);
-                    startActivityForResult(fbhandler,1);
+                        fbHandler.putExtras(b);
+                    startActivityForResult(fbHandler,1);
                         
                         }
                         else {
