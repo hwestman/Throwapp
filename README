@@ -6,5 +6,5 @@ How To Build: (Netbeans)
 - Create Android App named Throwapp (package: com.throwapp)
 - Run git pull https://github.com/hwestman/Throwapp.git
 - Move all files from within the Throwapp dir (which you have just pulled) to the the android app directory named Throwapp
-- In Netbeans you have to add the facebook library residing in Throwapp/external_librarys/facebook-android-sdk/ to librarys under project properties
+- In Netbeans you have to add the facebook library residing in Throwapp/external_librarys/ to librarys under project properties
 - Build it!
