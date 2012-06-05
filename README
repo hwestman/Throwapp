@@ -6,14 +6,13 @@ To calculate how far you actually threw your device, we first measure how much p
 
 How To Build: (Netbeans)
 
-- Create Android App named Throwapp (package: com.throwapp)
 - Run: git clone https://github.com/hwestman/Throwapp.git
-- Move all files from within the Throwapp dir (which you have just pulled) to the the android app directory named Throwapp
+- Update Throwapp with sdk tools like so:
+	- cd to: <your regular Android SDK>/tools
+	- run: ./android update project --Throwapp --target<target> --path <path to Throwapp>
 - In Netbeans you have to add the facebook android sdk like so:
 	- Clone sourcee from : https://github.com/facebook/facebook-android-sdk.git
-	- Update the facebook app residing in the directory you just pulled like so:
-		- cd to: <your regular Android SDK>/tools
-		- run: ./android update project --Throwapp --target<target> --path <path to facebook-android-sdk/facebook>
+	- Update the facebook app residing in the directory you just pulled like you updated Throwapp:
 	- Add the facebook-android-sdk/facebook app to your library in Netbeans (in properties of Throwapp project)
 - Build Throwapp
 
