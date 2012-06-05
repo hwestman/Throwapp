@@ -11,5 +11,4 @@ local.properties
 proguard-project.txt
 project.properties
 private/*
-/external_librarys/facebook/bin/
-/external_librarys/facebook/gen/
+facebook-android-sdk/*
