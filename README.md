@@ -13,10 +13,12 @@ In command line update Throwapp with Android sdk (download latest version from a
 cd <your Android SDK>/tools
 ./android update project --Throwapp --target<target> --path <path to Throwapp>
 ```
-In Netbeans you have to add the facebook android sdk like so:
+In Netbeans you have to add the facebook android sdk
+
 `git clone https://github.com/facebook/facebook-android-sdk.git`
 
 Update the facebook app
+
 `./android update project --Throwapp --target<target> --path <path to facebook sdk>`
 
 Add the facebook-android-sdk/facebook app to your library in Netbeans (in properties of Throwapp project)
